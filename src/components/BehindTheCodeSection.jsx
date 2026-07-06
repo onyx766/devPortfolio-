@@ -57,7 +57,7 @@ export function BehindTheCodeSection() {
                   Now playing — coding session
                 </p>
                 <p className="text-sm font-semibold text-amber-50">
-                  Behind the Code · curated by Danny
+                  Behind the Code · curated by Katoshi
                 </p>
               </div>
             </div>

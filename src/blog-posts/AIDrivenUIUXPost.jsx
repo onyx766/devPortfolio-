@@ -97,12 +97,12 @@ export default function AIDrivenUIUXPost() {
         <div className="mt-10 flex items-center gap-4 border-y border-zinc-200/80 py-5">
           <img
             src={avatarSrc}
-            alt="Danny"
+            alt="Onyx"
             className="h-11 w-11 rounded-full object-cover"
             style={{ objectPosition: "center 28%" }}
           />
           <div className="flex-1 leading-tight">
-            <p className="text-[14px] font-semibold text-zinc-900">Danny</p>
+            <p className="text-[14px] font-semibold text-zinc-900">Onyx</p>
             <p className="text-[13px] text-zinc-500">
               <span>Mar 29, 2026</span>
               <span className="mx-2 text-zinc-300">·</span>
@@ -403,13 +403,13 @@ Never invent facts. If a field is missing, say so.`}</CodeBlock>
           <div className="mt-10 flex items-center gap-4">
             <img
               src={avatarSrc}
-              alt="Danny"
+              alt="Onyx"
               className="h-14 w-14 rounded-full object-cover"
               style={{ objectPosition: "center 28%" }}
             />
             <div className="flex-1 leading-tight">
               <p className="text-[15px] font-semibold text-zinc-900">
-                Written by Danny
+                Written by Onyx
               </p>
               <p className="mt-1 text-[13px] text-zinc-500">
                 Full-stack developer. I build calm, opinionated software —

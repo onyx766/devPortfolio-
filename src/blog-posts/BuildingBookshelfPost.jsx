@@ -172,11 +172,11 @@ export default function BuildingBookshelfPost() {
           <div className="mt-6 flex items-center justify-center gap-3 text-[12px] text-zinc-500">
             <img
               src={avatarSrc}
-              alt="Danny"
+              alt="Onyx"
               className="h-8 w-8 rounded-full object-cover ring-2 ring-white shadow"
               style={{ objectPosition: "center 28%" }}
             />
-            <span className="font-semibold text-zinc-700">Danny</span>
+            <span className="font-semibold text-zinc-700">Onyx</span>
             <span className="text-zinc-300">·</span>
             <span>Apr 16, 2026</span>
             <span className="text-zinc-300">·</span>

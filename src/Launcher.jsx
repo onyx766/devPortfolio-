@@ -65,6 +65,7 @@ const NAV_TREE = [
 
 function AboutSection() {
   const isMobile = useLowPower();
+
   return (
     <section id="about" className="relative z-10 px-5 md:px-8 py-20 scroll-mt-8 overflow-hidden">
       <BrushStrokes palette="warm" variant={1} seed={2} />
@@ -80,42 +81,45 @@ function AboutSection() {
           {/* Left: paragraph */}
 
           <div className="space-y-5 text-lg text-zinc-600 leading-relaxed">
-            <p>
-              <span className="font-semibold" style={{ color: "#0f766e" }}>
-                Full-Stack Developer by profession, Unity Engineer by passion
-              </span>
-              , and lifelong builder at heart. I specialize in creating scalable web
-              applications, interactive experiences, and game systems that bridge
-              creativity with technology. From architecting{" "}
-              <span className="font-semibold" style={{ color: "#2563eb" }}>
-                backend services and APIs
-              </span>{" "}
-              to crafting responsive frontends and immersive gameplay mechanics, I enjoy
-              turning ambitious ideas into products people love to use.
-            </p>
-            <p>
-              My work spans modern web technologies, cloud infrastructure, databases, and{" "}
-              <span className="font-semibold" style={{ color: "#b91c1c" }}>
-                Unity-powered game development
-              </span>
-              . Whether I'm building full-stack platforms, multiplayer game systems, or
-              integrating cutting-edge tech, I focus on{" "}
-              <span className="font-semibold" style={{ color: "#6d28d9" }}>
-                clean architecture, performance, and user experience
-              </span>
-              . Great software isn't just written — it's engineered to solve real
-              problems, scale gracefully, and create meaningful impact.
-            </p>
-            <p>
-              I'm driven by curiosity, fueled by challenges, and passionate about
-              building what didn't exist yesterday. If it involves{" "}
-              <span className="font-semibold" style={{ color: "#ca8a04" }}>
-                software, games, automation, or innovative digital experiences
-              </span>
-              , you'll find me creating, optimizing, and pushing the boundaries of what's
-              possible.
-            </p>
-          </div>
+  <p>
+    <span className="font-semibold" style={{ color: "#0f766e" }}>
+      Unity Engineer by profession, AI Software Engineer by innovation
+    </span>
+    , with a passion for building intelligent, immersive, and high-performance
+    applications. I specialize in developing{" "}
+    <span className="font-semibold" style={{ color: "#2563eb" }}>
+      real-time 3D experiences, AI-powered software, and scalable systems
+    </span>
+    that combine creativity with cutting-edge technology. From crafting gameplay
+    mechanics and simulation systems in Unity to designing AI-driven applications
+    and automation pipelines, I enjoy transforming ambitious ideas into impactful
+    digital products.
+  </p>
+
+  <p>
+    My expertise spans{" "}
+    <span className="font-semibold" style={{ color: "#b91c1c" }}>
+      Unity, C#, computer vision, machine learning, LLM integrations, and cloud-based AI solutions
+    </span>
+    . Whether I'm building multiplayer games, interactive simulations, intelligent
+    assistants, or AI-enhanced software platforms, I focus on{" "}
+    <span className="font-semibold" style={{ color: "#6d28d9" }}>
+      performance, scalable architecture, and exceptional user experiences
+    </span>
+    . Great software is more than functional—it's designed to adapt, learn, and
+    deliver meaningful value while maintaining reliability and efficiency.
+  </p>
+
+  <p>
+    I'm driven by curiosity, inspired by emerging technologies, and motivated by
+    solving complex challenges through innovation. If it involves{" "}
+    <span className="font-semibold" style={{ color: "#ca8a04" }}>
+      AI, game development, intelligent automation, immersive experiences, or next-generation software
+    </span>
+    , you'll find me experimenting, optimizing, and building solutions that push
+    the boundaries of what's possible.
+  </p>
+</div>
 
           {/* Right: desk with person floating in front, pointing left.
               Skipped on mobile — the two PNGs are ~3MB combined and the
@@ -133,7 +137,7 @@ function AboutSection() {
                 />
                 <img
                   src={DannyIllustratedSrc}
-                  alt="Illustration of Danny"
+                  alt="Illustration of Onyx"
                   loading="lazy"
                   decoding="async"
                   className="absolute z-10 h-[115%] w-auto -bottom-[8%] -left-[14%] drop-shadow-[0_25px_35px_rgba(0,0,0,0.22)] animate-float-slow"
@@ -388,7 +392,7 @@ function HeroAvatar({ progress }) {
         <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400 opacity-60 blur-md" />
         <img
           src={avatarSrc}
-          alt="Danny"
+          alt="Onyx"
           className="relative h-32 w-32 md:h-40 md:w-40 rounded-full object-cover border-[3px] border-white shadow-xl"
           style={{ objectPosition: "center 28%" }}
         />
@@ -402,8 +406,8 @@ function HeroAvatar({ progress }) {
 function FloatingAvatar({ visible }) {
   return (
     <div className="avatar-float" data-visible={visible ? "true" : "false"}>
-      <img src={avatarSrc} alt="Danny" />
-      <span>Danny</span>
+      <img src={avatarSrc} alt="Onyx" />
+      <span>Onyx</span>
     </div>
   );
 }
@@ -1504,13 +1508,13 @@ function MobileNav({ onSelect }) {
                   <div className="absolute -inset-0.5 rounded-full bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400 opacity-70 blur-[3px]" />
                   <img
                     src={avatarSrc}
-                    alt="Danny"
+                    alt="Onyx"
                     className="relative h-10 w-10 rounded-full object-cover border-2 border-white shadow-md"
                     style={{ objectPosition: "center 28%" }}
                   />
                 </div>
                 <div className="flex flex-col leading-tight">
-                  <span className="text-sm font-semibold text-zinc-900">Danny</span>
+                  <span className="text-sm font-semibold text-zinc-900">Onyx</span>
                   <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-zinc-400">
                     portfolio
                   </span>
@@ -1735,13 +1739,13 @@ export default function Launcher() {
             <div className="absolute -inset-0.5 rounded-full bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400 opacity-70 blur-[3px]" />
             <img
               src={avatarSrc}
-              alt="Danny"
+              alt="Onyx"
               className="relative h-11 w-11 rounded-full object-cover border-2 border-white shadow-md"
               style={{ objectPosition: "center 28%" }}
             />
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="text-sm font-semibold text-zinc-900">Danny</span>
+            <span className="text-sm font-semibold text-zinc-900">Onyx</span>
             <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-zinc-400">
               portfolio
             </span>

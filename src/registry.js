@@ -3,128 +3,153 @@
 
 export const PROJECTS = [
   {
-    id: "homesprint",
-    name: "HomeSprint",
-    tagline: "Home-buying command center",
+    id: "survival-protocol",
+    name: "Survival Protocol",
+    tagline: "Multiplayer survival adventure",
     description:
-      "Full-stack dashboard that tracks mortgage projections, market comps, and home-buying milestones. Next.js frontend with a FastAPI backend running real-time financial models.",
-    stack: ["Next.js", "Tailwind", "FastAPI", "Python"],
-    color: "#6b8258",           // moss green — hand-painted, dusty
-    gradient: "from-emerald-600 to-green-700",
-    spineHighlight: "#a8be8e", // lighter painterly wash
-    spineShadow: "#3f4e33",    // deeper pigment pooling
-    icon: "home",
-    type: "web-local",
-    cwd: "/Users/dfmon/homesprint/frontend",
-    startCmd: "npm run dev",
-    port: 3000,
-    url: "http://localhost:3000",
-    prodUrl: "https://homesprint-three.vercel.app/",
-    githubUrl: "#", // TODO: fill in real GitHub URL
-    processHint: "next dev",
-    preview: "/previews/homesprint.mp4",
-    // Watercolor illustration for the card (drop PNG/JPG into src/assets/scenes/)
-    scene: "/assets/scenes/homesprint.jpg",
-    scenePosition: "center 85%",
-    cover: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
-    sidecars: [
-      {
-        id: "homesprint-api",
-        cwd: "/Users/dfmon/homesprint/backend",
-        cmd: "./venv/bin/uvicorn app.main:app --reload --port 8000",
-        port: 8000,
-      },
-    ],
+      "A cross-platform multiplayer survival game featuring crafting, inventory systems, enemy AI, and online multiplayer gameplay.",
+    stack: ["Unity", "C#", "Photon Fusion", "Shader Graph", "Addressables"],
+    color: "#1E5A46",
+    gradient: "from-emerald-700 to-green-900",
+    spineHighlight: "#7DB99A",
+    spineShadow: "#103326",
+    icon: "gamepad",
+    type: "game",
+    githubUrl: "#",
+    demoUrl: "#",
+    preview: "/previews/survival-protocol.mp4",
+
+    // Online scene image
+    scene:
+      "https://images.unsplash.com/photo-1511497584788-876760111969?w=1600&q=80",
+    scenePosition: "center center",
+
+    cover:
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80",
   },
+
   {
-    id: "project-whoa",
-    name: "Sam Intel",
-    tagline: "Recompete radar intelligence",
+    id: "galaxy-racer",
+    name: "Galaxy Racer",
+    tagline: "Fast-paced futuristic racing",
     description:
-      "Contract intelligence platform that surfaces recompete opportunities using federal procurement data. D3 visualizations, Supabase-backed, deployed on Vercel.",
-    stack: ["Next.js 16", "D3.js", "Supabase", "Tremor"],
-    color: "#546988",           // twilight blue — dusty, faded
-    gradient: "from-blue-800 to-indigo-900",
-    spineHighlight: "#8ea1bd",
-    spineShadow: "#2f3d52",
-    icon: "radar",
-    type: "web-remote",
-    url: "https://sam-intel.vercel.app/",
-    prodUrl: "https://sam-intel.vercel.app/",
-    githubUrl: "#", // TODO: fill in real GitHub URL
-    preview: "/previews/project-whoa.mp4",
-    scene: "/assets/scenes/project-whoa.jpg",
-    scenePosition: "center 35%",
-    cover: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "Arcade sci-fi racing game featuring procedural tracks, AI opponents, boost mechanics, and cinematic effects.",
+    stack: ["Unity", "C#", "URP", "Cinemachine", "Post Processing"],
+    color: "#3A4FA8",
+    gradient: "from-blue-700 to-indigo-900",
+    spineHighlight: "#90A7F7",
+    spineShadow: "#1A2552",
+    icon: "rocket",
+    type: "game",
+    githubUrl: "#",
+    demoUrl: "#",
+    preview: "/previews/galaxy-racer.mp4",
+
+    scene:
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
+    scenePosition: "center center",
+
+    cover:
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&q=80",
   },
+
   {
-    id: "mom-beading-page",
-    name: "Mom's Beadwork",
-    tagline: "Handmade jewelry storefront",
+    id: "zombie-siege",
+    name: "Zombie Siege",
+    tagline: "Wave-based zombie shooter",
     description:
-      "Portfolio + shop for my mom's handmade beaded jewelry. Next.js on App Router with Supabase-backed catalog, Framer Motion flourishes, and NextAuth for admin-only edits.",
-    stack: ["Next.js 16", "Supabase", "Framer Motion", "NextAuth"],
-    color: "#b87a3d",           // terracotta — warm, aged
-    gradient: "from-amber-500 to-orange-600",
-    spineHighlight: "#dba66c",
-    spineShadow: "#6b3f1a",
-    icon: "beads",
-    type: "web-local",
-    cwd: "/Users/dfmon/mom-beading-page",
-    startCmd: "npm run dev -- -p 3100",
-    port: 3100,
-    url: "http://localhost:3100",
-    prodUrl: "https://project-yc9yt.vercel.app/",
-    githubUrl: "#", // TODO: fill in real GitHub URL
-    processHint: "next dev.*3100",
-    preview: "/previews/mom-beading-page.mp4",
-    scene: "/assets/scenes/mom-beading-page.jpg",
-    scenePosition: "center 55%",
-    cover: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=80",
+      "Third-person zombie survival shooter with advanced enemy AI, weapon upgrades, and procedural wave spawning.",
+    stack: ["Unity", "C#", "NavMesh", "Animator", "DOTween"],
+    color: "#8C2F39",
+    gradient: "from-red-700 to-rose-900",
+    spineHighlight: "#D07D87",
+    spineShadow: "#45141A",
+    icon: "skull",
+    type: "game",
+    githubUrl: "#",
+    demoUrl: "#",
+    preview: "/previews/zombie-siege.mp4",
+
+    scene:
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600&q=80",
+    scenePosition: "center center",
+
+    cover:
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80",
   },
+
   {
-    id: "shirtfilah",
-    name: "ShirtFilah",
-    tagline: "Workout tracker with soul",
+    id: "ai-companion",
+    name: "AI Companion",
+    tagline: "LLM-powered virtual assistant",
     description:
-      "A minimalist iOS workout tracker with weekly wrapped summaries, streaks, and a calm pixel-inspired aesthetic. Built with SwiftUI + SwiftData. Live-demoed in-browser via Appetize.",
-    stack: ["SwiftUI", "SwiftData", "iOS 17+"],
-    color: "#9a5555",           // plum red — faded leatherbound
-    gradient: "from-red-900 to-rose-950",
-    spineHighlight: "#c48383",
-    spineShadow: "#512a2a",
-    icon: "dumbbell",
-    type: "ios-appetize",
-    // Appetize free tier blocks embedding — open the standalone play page instead
-    appetizeUrl: "https://appetize.io/app/b_pnn5bps2or7g3dye2sk3x3lagi",
-    githubUrl: "#",             // TODO: real GitHub URL
-    testflightUrl: "#",         // TODO: real TestFlight invite URL
-    scene: "/assets/scenes/shirtfilah.jpg",
-    scenePosition: "center 55%",
+      "AI desktop assistant integrating LLMs, speech recognition, vector search, and intelligent workflow automation.",
+    stack: ["Python", "FastAPI", "OpenAI", "LangChain", "ChromaDB"],
+    color: "#6B3FA0",
+    gradient: "from-violet-700 to-purple-900",
+    spineHighlight: "#B291D8",
+    spineShadow: "#32194D",
+    icon: "brain",
+    type: "ai",
+    githubUrl: "#",
+    demoUrl: "#",
+    preview: "/previews/ai-companion.mp4",
+
+    scene:
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600&q=80",
+    scenePosition: "center center",
+
+    cover:
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80",
   },
+
   {
-    id: "vinylsheetz",
-    name: "VinylSheetz",
-    tagline: "Crate-digger's archive",
+    id: "vision-inspector",
+    name: "Vision Inspector",
+    tagline: "Computer vision inspection platform",
     description:
-      "Vinyl record collection manager powered by MusicBrainz and Cover Art Archive. Built as a Tauri desktop app, now also runs in-browser with custom web shims.",
-    stack: ["React", "Tauri", "SQLite", "MusicBrainz API"],
-    color: "#7d4a2a",           // cognac — aged wood, vinyl sleeve
-    gradient: "from-orange-800 to-amber-900",
-    spineHighlight: "#ae7a52",
-    spineShadow: "#40230f",
-    icon: "disc",
-    type: "web-local",
-    cwd: "/Users/dfmon/vinylsheetz-archive",
-    startCmd: "npm run dev",
-    port: 1420,
-    url: "http://localhost:1420",
-    prodUrl: "https://vinylsheetz-archive.vercel.app/",
-    githubUrl: "#", // TODO: fill in real GitHub URL
-    processHint: "vite.*1420",
-    preview: "/previews/vinylsheetz.mp4",
-    scene: "/assets/scenes/vinylsheetz.jpg",
-    scenePosition: "center 65%",
-    cover: "https://images.unsplash.com/photo-1539375665275-f9de415ef9ac?w=800&q=80",
+      "Industrial quality inspection using YOLO object detection with real-time analytics and cloud reporting.",
+    stack: ["Python", "OpenCV", "YOLO", "FastAPI", "React"],
+    color: "#8A5A1D",
+    gradient: "from-amber-700 to-orange-900",
+    spineHighlight: "#D7A869",
+    spineShadow: "#4C2E08",
+    icon: "camera",
+    type: "ai",
+    githubUrl: "#",
+    demoUrl: "#",
+    preview: "/previews/vision-inspector.mp4",
+
+    scene:
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600&q=80",
+    scenePosition: "center center",
+
+    cover:
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80",
+  },
+
+  {
+    id: "metaverse-showroom",
+    name: "Metaverse Showroom",
+    tagline: "Interactive virtual experience",
+    description:
+      "A Unity-powered virtual showroom allowing users to explore products in immersive 3D with HDRP visuals.",
+    stack: ["Unity", "C#", "HDRP", "Addressables", "WebGL"],
+    color: "#0F6B78",
+    gradient: "from-cyan-700 to-sky-900",
+    spineHighlight: "#73C9D6",
+    spineShadow: "#06363E",
+    icon: "cube",
+    type: "game",
+    githubUrl: "#",
+    demoUrl: "#",
+    preview: "/previews/metaverse-showroom.mp4",
+
+    scene:
+      "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=1600&q=80",
+    scenePosition: "center center",
+
+    cover:
+      "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1200&q=80",
   },
 ];

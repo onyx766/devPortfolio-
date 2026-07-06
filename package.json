@@ -1,10 +1,10 @@
 {
-  "name": "Danny-portfolio",
+  "name": "Naro-portfolio",
   "private": true,
   "version": "1.0.0",
-  "description": "Portfolio of Danny Katoshi — a painterly bookshelf of projects plus a small magazine of writing.",
+  "description": "Portfolio of Naro Katoshi — a painterly bookshelf of projects plus a small magazine of writing.",
   "author": {
-    "name": "Danny Katoshi",
+    "name": "Naro Katoshi",
     "email": "dfmreyes02@gmail.com"
   },
   "license": "UNLICENSED",

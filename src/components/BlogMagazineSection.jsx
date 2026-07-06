@@ -40,10 +40,10 @@ const BackCover = forwardRef(function BackCover(_, ref) {
           <p className="mt-6 text-xs text-zinc-500 leading-relaxed max-w-[16rem] mx-auto">
             More entries arriving as I write them. Reach me at{" "}
             <a
-              href="mailto:zakharovmaksym@gmail.com"
+              href="mailto:onyxdev122@gmail.com"
               className="font-mono text-zinc-700 underline decoration-zinc-300 decoration-1 underline-offset-2 transition-colors hover:text-zinc-900 hover:decoration-zinc-500"
             >
-              zakharovmaksym@gmail.com
+              onyxdev122@gmail.com
             </a>{" "}
             if a piece sparks something.
           </p>
@@ -106,14 +106,14 @@ const BlogPage = forwardRef(function BlogPage({ blog, pageNumber, total }, ref) 
               ) : (
                 <img
                   src={avatarSrc}
-                  alt="Danny"
+                  alt="Onyx"
                   className="h-8 w-8 rounded-full object-cover ring-2 ring-white"
                   style={{ objectPosition: "center 28%" }}
                 />
               )}
               <div className="flex flex-col leading-tight">
                 <span className="text-[11px] font-semibold text-zinc-800">
-                  {isExternal ? blog.externalAuthor : "Danny"}
+                  {isExternal ? blog.externalAuthor : "Onyx"}
                 </span>
                 <span className="text-[10px] text-zinc-400">{blog.date}</span>
               </div>
@@ -211,14 +211,14 @@ function MobileBlogCard({ blog }) {
             ) : (
               <img
                 src={avatarSrc}
-                alt="Danny"
+                alt="Onyx"
                 className="h-8 w-8 rounded-full object-cover ring-2 ring-white"
                 style={{ objectPosition: "center 28%" }}
               />
             )}
             <div className="flex flex-col leading-tight">
               <span className="text-[11px] font-semibold text-zinc-800">
-                {isExternal ? blog.externalAuthor : "Danny"}
+                {isExternal ? blog.externalAuthor : "Onyx"}
               </span>
               <span className="text-[10px] text-zinc-400">{blog.date}</span>
             </div>
@@ -293,10 +293,10 @@ export const BlogMagazineSection = forwardRef(function BlogMagazineSection(
               <p className="mt-3 text-xs text-zinc-500 leading-relaxed">
                 More entries arriving as I write them. Reach me at{" "}
                 <a
-                  href="mailto:zakharovmaksym@gmail.com"
+                  href="mailto:onyxdev122@gmail.com"
                   className="font-mono text-zinc-700 underline decoration-zinc-300 decoration-1 underline-offset-2 hover:text-zinc-900"
                 >
-                  zakharovmaksym@gmail.com
+                  onyxdev122@gmail.com
                 </a>{" "}
                 if a piece sparks something.
               </p>

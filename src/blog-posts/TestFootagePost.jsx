@@ -213,7 +213,7 @@ export default function TestFootagePost() {
         >
           <img
             src={avatarSrc}
-            alt="Danny"
+            alt="Onyx"
             className="h-11 w-11 rounded-full object-cover"
             style={{
               objectPosition: "center 28%",
@@ -225,7 +225,7 @@ export default function TestFootagePost() {
               className="font-mono text-[12px] font-bold uppercase tracking-[0.22em]"
               style={{ color: INK }}
             >
-              dir. Danny
+              dir. Onyx
             </p>
             <p
               className="mt-1 font-mono text-[11px] font-semibold uppercase tracking-[0.18em]"
@@ -557,7 +557,7 @@ export default function TestFootagePost() {
           <div className="mt-10 flex items-center gap-4">
             <img
               src={avatarSrc}
-              alt="Danny"
+              alt="Onyx"
               className="h-14 w-14 rounded-full object-cover"
               style={{
                 objectPosition: "center 28%",
@@ -569,7 +569,7 @@ export default function TestFootagePost() {
                 className="text-[15px] font-semibold"
                 style={{ color: INK }}
               >
-                Written by Danny
+                Written by Onyx
               </p>
               <p className="mt-1 text-[13px]" style={{ color: INK_DIM }}>
                 Full-stack developer, sometimes-singer, currently

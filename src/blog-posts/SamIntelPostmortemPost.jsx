@@ -178,7 +178,7 @@ export default function SamIntelPostmortemPost() {
         <div className="mt-10 flex items-center gap-4 border-y border-zinc-800/80 py-5">
           <img
             src={avatarSrc}
-            alt="Danny"
+            alt="Onyx"
             className="h-11 w-11 rounded-full object-cover ring-1 ring-zinc-800"
             style={{ objectPosition: "center 28%" }}
           />
@@ -685,13 +685,13 @@ limit 50;`}</CodeBlock>
           <div className="mt-10 flex items-center gap-4">
             <img
               src={avatarSrc}
-              alt="Danny"
+              alt="Onyx"
               className="h-14 w-14 rounded-full object-cover ring-1 ring-zinc-800"
               style={{ objectPosition: "center 28%" }}
             />
             <div className="flex-1 leading-tight">
               <p className="text-[15px] font-semibold text-zinc-100">
-                Written by Danny
+                Written by Onyx
               </p>
               <p className="mt-1 text-[13px] text-zinc-400">
                 Full-stack developer. I build calm, opinionated software —
